@@ -10,7 +10,7 @@
         <modifiers>
           <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
         </modifiers>
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -25,7 +25,7 @@
           <comparison active="True" value="-1" operand="!=" ifValue="1" elseValue="1" />
           <transformation active="False" expression="$ + 200" />
         </modifiers>
-        <display type="Output" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="Backlight_PWM" pinBrightness="255" />
+        <display type="Output" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="Backlight_PWM" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -40,7 +40,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 7" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 7" />
         <preconditions />
         <configrefs />
       </settings>
@@ -55,7 +55,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 5" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 5" />
         <preconditions />
         <configrefs />
       </settings>
@@ -70,7 +70,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 4" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 4" />
         <preconditions />
         <configrefs />
       </settings>
@@ -85,7 +85,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 0" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 0" />
         <preconditions />
         <configrefs />
       </settings>
@@ -100,7 +100,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 1" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 1" />
         <preconditions />
         <configrefs />
       </settings>
@@ -115,7 +115,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 3" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 3" />
         <preconditions />
         <configrefs />
       </settings>
@@ -130,7 +130,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 2" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 2" />
         <preconditions />
         <configrefs />
       </settings>
@@ -142,7 +142,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/gps" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 21" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 21" />
         <preconditions />
         <configrefs />
       </settings>
@@ -154,7 +154,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/irs_align_fail_right" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 1" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 1" />
         <preconditions />
         <configrefs />
       </settings>
@@ -166,7 +166,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/irs_align_right" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 20" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 20" />
         <preconditions />
         <configrefs />
       </settings>
@@ -178,7 +178,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/irs_align_fail_left" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 22" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 22" />
         <preconditions />
         <configrefs />
       </settings>
@@ -190,7 +190,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/irs_align_left" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 23" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 23" />
         <preconditions />
         <configrefs />
       </settings>
@@ -205,7 +205,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 16" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 16" />
         <preconditions />
         <configrefs />
       </settings>
@@ -220,7 +220,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 19" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 19" />
         <preconditions />
         <configrefs />
       </settings>
@@ -235,7 +235,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 17" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 17" />
         <preconditions />
         <configrefs />
       </settings>
@@ -250,7 +250,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 18" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 18" />
         <preconditions />
         <configrefs />
       </settings>
@@ -265,7 +265,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 15" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 15" />
         <preconditions />
         <configrefs />
       </settings>
@@ -280,7 +280,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 12" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 12" />
         <preconditions />
         <configrefs />
       </settings>
@@ -295,7 +295,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 14" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 14" />
         <preconditions />
         <configrefs />
       </settings>
@@ -310,7 +310,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 6" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 6" />
         <preconditions />
         <configrefs />
       </settings>
@@ -325,7 +325,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 9" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 9" />
         <preconditions />
         <configrefs />
       </settings>
@@ -340,7 +340,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 8" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 8" />
         <preconditions />
         <configrefs />
       </settings>
@@ -355,7 +355,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 10" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 10" />
         <preconditions />
         <configrefs />
       </settings>
@@ -370,7 +370,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 11" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 11" />
         <preconditions />
         <configrefs />
       </settings>
@@ -387,7 +387,7 @@
             <value x="1100" y="1500" />
           </interpolation>
         </modifiers>
-        <display type="Stepper" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" stepperAddress="EGT_Gauge" stepperInputRev="1800" stepperOutputRev="4096" stepperTestValue="500" stepperCompassMode="False" stepperAcceleration="2800" stepperSpeed="1400" />
+        <display type="Stepper" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" stepperAddress="EGT_Gauge" stepperInputRev="1800" stepperOutputRev="4096" stepperTestValue="500" stepperCompassMode="False" stepperAcceleration="2800" stepperSpeed="1400" />
         <preconditions />
         <configrefs />
       </settings>
@@ -399,7 +399,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/window_heat_l_side" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 12" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 12" />
         <preconditions />
         <configrefs />
       </settings>
@@ -411,7 +411,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/window_heat_l_fwd" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 13" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 13" />
         <preconditions />
         <configrefs />
       </settings>
@@ -423,7 +423,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/window_heat_r_fwd" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 14" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 14" />
         <preconditions />
         <configrefs />
       </settings>
@@ -435,7 +435,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/window_heat_r_side" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 15" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 15" />
         <preconditions />
         <configrefs />
       </settings>
@@ -447,7 +447,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/wing_ice_on_L_annun" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 0" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 0" />
         <preconditions />
         <configrefs />
       </settings>
@@ -459,7 +459,7 @@
         <source type="XplaneDataRef" path="laminar/B738/annunciator/wing_ice_on_R_annun" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 7" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 7" />
         <preconditions />
         <configrefs />
       </settings>
@@ -474,7 +474,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 9" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 9" />
         <preconditions />
         <configrefs />
       </settings>
@@ -488,7 +488,7 @@
         <modifiers>
           <transformation active="True" expression="if($&lt;0.4, 0, 1)" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 10" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 10" />
         <preconditions />
         <configrefs />
       </settings>
@@ -503,7 +503,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 8" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 8" />
         <preconditions />
         <configrefs />
       </settings>
@@ -517,7 +517,7 @@
         <modifiers>
           <transformation active="True" expression="if($&lt;0.4, 0, 1)" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 11" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 11" />
         <preconditions />
         <configrefs />
       </settings>
@@ -532,7 +532,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 13" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_1" registerOutputPin="Output 13" />
         <preconditions />
         <configrefs />
       </settings>
@@ -547,7 +547,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 2" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 2" />
         <preconditions />
         <configrefs />
       </settings>
@@ -562,7 +562,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 3" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 3" />
         <preconditions />
         <configrefs />
       </settings>
@@ -577,7 +577,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 5" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 5" />
         <preconditions />
         <configrefs />
       </settings>
@@ -592,7 +592,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 4" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 4" />
         <preconditions />
         <configrefs />
       </settings>
@@ -607,7 +607,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 6" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 6" />
         <preconditions />
         <configrefs />
       </settings>
@@ -622,7 +622,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 16" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 16" />
         <preconditions />
         <configrefs />
       </settings>
@@ -637,7 +637,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 22" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 22" />
         <preconditions />
         <configrefs />
       </settings>
@@ -652,7 +652,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 17" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 17" />
         <preconditions />
         <configrefs />
       </settings>
@@ -667,7 +667,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 21" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 21" />
         <preconditions />
         <configrefs />
       </settings>
@@ -682,7 +682,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 18" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 18" />
         <preconditions />
         <configrefs />
       </settings>
@@ -697,7 +697,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 20" />
+        <display type="ShiftRegister" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" shiftRegister="OUT_SR_2" registerOutputPin="Output 20" />
         <preconditions />
         <configrefs />
       </settings>
@@ -709,7 +709,7 @@
         <source type="XplaneDataRef" path="sim/cockpit/pressure/max_allowable_altitude" />
         <test type="String" value="12" />
         <modifiers />
-        <display type="Display Module" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" ledAddress="FLT_A_Display" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2,3,4" />
+        <display type="Display Module" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" ledAddress="FLT_A_Display" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2,3,4" />
         <preconditions />
         <configrefs />
       </settings>
@@ -721,7 +721,7 @@
         <source type="XplaneDataRef" path="laminar/B738/pressurization/knobs/landing_alt" />
         <test type="Float" value="12" />
         <modifiers />
-        <display type="Display Module" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" ledAddress="LAND_A_Display" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2,3,4" />
+        <display type="Display Module" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" ledAddress="LAND_A_Display" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2,3,4" />
         <preconditions />
         <configrefs />
       </settings>
@@ -733,7 +733,7 @@
         <source type="XplaneDataRef" path="laminar/B738/toggle_switch/irs_right" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -745,7 +745,7 @@
         <source type="XplaneDataRef" path="laminar/B738/toggle_switch/irs_left" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -757,7 +757,7 @@
         <source type="XplaneDataRef" path="laminar/B738/switches/left_wiper_pos" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -769,7 +769,7 @@
         <source type="XplaneDataRef" path="laminar/B738/switches/left_wiper_pos" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -781,7 +781,7 @@
         <source type="XplaneDataRef" path="laminar/B738/engine/starter1_pos" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -793,7 +793,7 @@
         <source type="XplaneDataRef" path="laminar/B738/engine/starter2_pos" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="-" serial="CFT_B737_C_OVH/ SN-D8F-39D" trigger="normal" pin="" pinBrightness="255" />
+        <display type="-" serial="CFT_B737_C_OVH/ SN-830-A75" trigger="normal" pin="" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -803,7 +803,7 @@
     <config guid="2abf92ee-7a1b-4d62-a6f3-36baf0e4d62e">
       <active>true</active>
       <description>Yaw Damper Switch</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="29">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/yaw_dumper_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/yaw_dumper_pos" expression="1" />
@@ -815,7 +815,7 @@
     <config guid="2abf92ee-7a1b-4d62-a6f3-36baf0e4d62e">
       <active>true</active>
       <description>Cross Feed Rotary Switch- Cross Feed</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="20">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/crossfeed_valve_on" expression="0" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/crossfeed_valve_off" expression="0" />
@@ -827,7 +827,7 @@
     <config guid="1222cef1-99b7-4c1e-8ae6-492b300861cd">
       <active>true</active>
       <description>Fuel Pumps L</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="21">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_ctr1" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_ctr1" expression="1" />
@@ -839,7 +839,7 @@
     <config guid="4fd81351-ca88-4cb7-82db-e5fff05d8a27">
       <active>true</active>
       <description>Fuel Pumps R</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="18">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_ctr2" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_ctr2" expression="1" />
@@ -851,7 +851,7 @@
     <config guid="ee1c2dcc-4bfa-4184-a1bd-84591a320d7b">
       <active>true</active>
       <description>Fuel Pumps 1 Aft</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="22">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_lft1" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_lft1" expression="1" />
@@ -863,7 +863,7 @@
     <config guid="1cc1cf1c-1199-4590-8823-d31a04b6b99d">
       <active>true</active>
       <description>Fuel Pumps 1 Fwd</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="23">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_lft2" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_lft2" expression="1" />
@@ -875,7 +875,7 @@
     <config guid="978fcada-c60a-49fb-8cfc-a2e2a6ad8437">
       <active>true</active>
       <description>Fuel Pumps 2 Aft</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="17">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_rgt1" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_rgt1" expression="1" />
@@ -887,7 +887,7 @@
     <config guid="4fd243d5-e17b-4584-92cc-14fae871b6ea">
       <active>true</active>
       <description>Fuel Pumps 2 Fwd</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="16">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_rgt2" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/fuel/fuel_tank_pos_rgt2" expression="1" />
@@ -899,7 +899,7 @@
     <config guid="1369c058-a65e-4da1-a41f-9d268f3892ee">
       <active>true</active>
       <description>DC Bat ON &amp; Guard</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="28">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/battery_up" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/battery_dn" expression="$" />
@@ -911,7 +911,7 @@
     <config guid="40a943f8-6283-4535-ba12-b2c1873b7edb">
       <active>true</active>
       <description>GRD PWR UP</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="31">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gpu_pos" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gpu_pos" expression="0" />
@@ -923,7 +923,7 @@
     <config guid="c840f921-a27d-46d9-99a3-f91b6381678c">
       <active>true</active>
       <description>GRD PWR DN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="30">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gpu_pos" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gpu_pos" expression="0" />
@@ -935,7 +935,7 @@
     <config guid="8fad5cdc-bf76-4ee4-9754-224c4b226b33">
       <active>true</active>
       <description>Gen 1 On</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="4">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen1_pos" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen1_pos" expression="0" />
@@ -947,7 +947,7 @@
     <config guid="07f5607d-5784-4804-927e-cbccfead3fb8">
       <active>true</active>
       <description>Gen 1 Off</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="7">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen1_pos" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen1_pos" expression="0" />
@@ -959,7 +959,7 @@
     <config guid="72f21849-53ac-449e-89f9-3cfb28e32ac9">
       <active>true</active>
       <description>Left Apu Gen On</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="5">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen1_pos" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen1_pos" expression="0" />
@@ -971,7 +971,7 @@
     <config guid="3e5277de-df46-4ecc-aee6-2d82d8724a40">
       <active>true</active>
       <description>Left Apu Gen Off</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="6">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen1_pos" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen1_pos" expression="0" />
@@ -983,7 +983,7 @@
     <config guid="79bee6ca-f537-40a7-8981-d96e90109ce9">
       <active>true</active>
       <description>Right Apu Gen On</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="3">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen2_pos" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen2_pos" expression="0" />
@@ -995,7 +995,7 @@
     <config guid="ebd43b6e-a601-484b-b103-898af05db56e">
       <active>true</active>
       <description>Right Apu Gen Off</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="0">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen2_pos" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/apu_gen2_pos" expression="0" />
@@ -1007,7 +1007,7 @@
     <config guid="27be61cf-575f-4581-8351-bbbef5132f8c">
       <active>true</active>
       <description>Gen 2 On</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="2">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen2_pos" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen2_pos" expression="0" />
@@ -1019,7 +1019,7 @@
     <config guid="1236badd-770f-49e9-bcd7-c1dd58729656">
       <active>true</active>
       <description>Gen 2 Off</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="1">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen2_pos" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/electrical/gen2_pos" expression="0" />
@@ -1031,7 +1031,7 @@
     <config guid="4107e7c5-9456-4f8b-be95-3b20c9202c16">
       <active>true</active>
       <description>Bus Trans</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="15">
           <onPress type="XplaneInputAction" inputType="Command" path="sim/electrical/cross_tie_on" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="sim/electrical/cross_tie_off" expression="$" />
@@ -1047,7 +1047,7 @@
     <config guid="b1d1ac96-6667-402a-8f75-3d71e499692c">
       <active>true</active>
       <description>L1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="17">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_dn" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="" expression="" />
@@ -1061,7 +1061,7 @@
     <config guid="ae7675a4-7569-4182-a37e-1ba8a4541e1c">
       <active>true</active>
       <description>L2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="18">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1074,7 +1074,7 @@
     <config guid="4db58bff-97ed-4205-b2a3-d075192eddd2">
       <active>true</active>
       <description>L3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="18">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_dn" expression="0" />
         </inputShiftRegister>
@@ -1087,7 +1087,7 @@
     <config guid="29ddce34-cb07-4692-ad4b-0b5c71f85e43">
       <active>true</active>
       <description>L4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="19">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1100,7 +1100,7 @@
     <config guid="b933156a-c63d-46cf-a133-35fb6dee795c">
       <active>true</active>
       <description>L5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="19">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1113,7 +1113,7 @@
     <config guid="33652fb1-0f76-40cb-8356-0201aa9ccc4a">
       <active>true</active>
       <description>L6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="16">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1126,7 +1126,7 @@
     <config guid="e8226bea-8210-4812-b9fe-33b8d48e6f44">
       <active>true</active>
       <description>L7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="16">
           <onPress type="XplaneInputAction" inputType="DataRef" path="" expression="" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/left_wiper_dn" expression="0" />
@@ -1140,7 +1140,7 @@
     <config guid="18759717-075b-4108-bffe-c6f1c4ad4f34">
       <active>true</active>
       <description>R1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="17">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_dn" expression="0" />
         </inputShiftRegister>
@@ -1153,7 +1153,7 @@
     <config guid="a403f25f-c9f6-4b3a-a23e-98ae3e6b493e">
       <active>true</active>
       <description>R2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="18">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1166,7 +1166,7 @@
     <config guid="9c0f9fd0-95e1-402b-975a-83b08a93a876">
       <active>true</active>
       <description>R3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="18">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_dn" expression="0" />
         </inputShiftRegister>
@@ -1179,7 +1179,7 @@
     <config guid="17835dcf-999c-4f5f-8579-8305cdb47651">
       <active>true</active>
       <description>R4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="19">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1192,7 +1192,7 @@
     <config guid="fa01e638-128e-4f40-a847-8cb8032760b9">
       <active>true</active>
       <description>R5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="19">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1205,7 +1205,7 @@
     <config guid="2e9b5094-3a96-4b2a-9f43-d75873566f56">
       <active>true</active>
       <description>R6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="16">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_up" expression="0" />
         </inputShiftRegister>
@@ -1218,7 +1218,7 @@
     <config guid="0568920b-ea60-412b-bf04-36e4d8f5b6cc">
       <active>true</active>
       <description>R7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="16">
           <onPress type="XplaneInputAction" inputType="DataRef" path="" expression="" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/right_wiper_dn" expression="0" />
@@ -1232,7 +1232,7 @@
     <config guid="560f0358-42d6-4749-ad8d-31c5edb6e5e9">
       <active>true</active>
       <description>RIGHT FWD</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="9">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_r_fwd_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_r_fwd_pos" expression="1" />
@@ -1244,7 +1244,7 @@
     <config guid="832f5d16-0e72-4350-ba13-569b5ce38741">
       <active>true</active>
       <description>RIGHT SIDE</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="8">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_r_side_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_r_side_pos" expression="1" />
@@ -1256,7 +1256,7 @@
     <config guid="f34bd0c5-b559-4e3e-81d3-5dbc39fcd8dd">
       <active>true</active>
       <description>PROBE HEAT B</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="10">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/fo_probes_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/fo_probes_pos" expression="1" />
@@ -1268,7 +1268,7 @@
     <config guid="304a109c-7dd1-4fd5-a610-ced0fc34b0ed">
       <active>true</active>
       <description>LEFT SIDE</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="15">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_l_side_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_l_side_pos" expression="1" />
@@ -1280,7 +1280,7 @@
     <config guid="6d96ba6a-af33-4820-8e4e-1595d5b124be">
       <active>true</active>
       <description>LEFT FWD</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="14">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_l_fwd_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/window_heat_l_fwd_pos" expression="1" />
@@ -1292,7 +1292,7 @@
     <config guid="3d4d9424-5c03-4b50-9540-84b97a4492c8">
       <active>true</active>
       <description>PROBE HEAT A</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="13">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/capt_probes_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/capt_probes_pos" expression="1" />
@@ -1304,7 +1304,7 @@
     <config guid="a3674403-2ab4-4536-9c83-150ed0dd7140">
       <active>true</active>
       <description>OVHT TEST /UP</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="12">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/window_ovht_test" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/window_ovht_test" expression="0" />
@@ -1316,7 +1316,7 @@
     <config guid="6814f57b-640e-48f6-bdc3-f64b95779e57">
       <active>true</active>
       <description>OVHT TEST /DOWN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="11">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/window_ovht_test" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/window_ovht_test" expression="0" />
@@ -1328,7 +1328,7 @@
     <config guid="982107e9-458c-421f-bee9-5e0367afe95a">
       <active>true</active>
       <description>Wing Anti-Ice </description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="10">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/wing_heat_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/wing_heat_pos" expression="1" />
@@ -1340,7 +1340,7 @@
     <config guid="8cff2842-5f15-446a-8f65-588a73e5c654">
       <active>true</active>
       <description>Eng Anti-Ice 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="9">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/eng1_heat_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/eng1_heat_pos" expression="1" />
@@ -1352,7 +1352,7 @@
     <config guid="d6aa519f-acfb-417a-99e2-17fe49269408">
       <active>true</active>
       <description>Eng Anti-Ice 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="8">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/eng2_heat_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/ice/eng2_heat_pos" expression="1" />
@@ -1364,7 +1364,7 @@
     <config guid="b07dd7fb-9971-46cc-b0fd-eda432e75553">
       <active>true</active>
       <description>HYD PUMP ENG 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="23">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/hydro_pumps1_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/hydro_pumps1_pos" expression="1" />
@@ -1376,7 +1376,7 @@
     <config guid="7346facf-c119-4313-a669-9717e65e64ec">
       <active>true</active>
       <description>HYD PUMP ELEC 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="22">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/electric_hydro_pumps1_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/electric_hydro_pumps1_pos" expression="1" />
@@ -1388,7 +1388,7 @@
     <config guid="1ba475bb-2d68-4e7d-adff-0c03d1c6c49c">
       <active>true</active>
       <description>HYD PUMP ELEC 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="21">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/electric_hydro_pumps2_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/electric_hydro_pumps2_pos" expression="1" />
@@ -1400,7 +1400,7 @@
     <config guid="7bf6b3bc-0a4c-4759-9123-2debcc93a449">
       <active>true</active>
       <description>HYD PUMP ENG 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="20">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/hydro_pumps2_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/hydro_pumps2_pos" expression="1" />
@@ -1412,7 +1412,7 @@
     <config guid="f92a1e0f-bc6f-48b8-b2c1-e08cf5cc2d41">
       <active>true</active>
       <description>L Pack Off-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="16">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/l_pack_up" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/l_pack_dn" expression="$" />
@@ -1424,7 +1424,7 @@
     <config guid="c4d857f0-e72c-4dba-9b93-840322ef14b4">
       <active>true</active>
       <description>L Pack High-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="17">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/l_pack_dn" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/l_pack_up" expression="$" />
@@ -1436,7 +1436,7 @@
     <config guid="df391941-8d0d-464b-be0f-c2f6164d1875">
       <active>true</active>
       <description>R Pack Off-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="2">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/r_pack_up" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/r_pack_dn" expression="$" />
@@ -1448,7 +1448,7 @@
     <config guid="1a005583-682c-4da4-b0ae-93cc44839c2c">
       <active>true</active>
       <description>R Pack High-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="3">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/r_pack_dn" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/r_pack_up" expression="$" />
@@ -1460,7 +1460,7 @@
     <config guid="bbb7a1d9-a279-4c4e-aef3-90b62ca554ee">
       <active>true</active>
       <description>Isolation Valve Close-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="18">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/iso_valve_up" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/iso_valve_dn" expression="$" />
@@ -1472,7 +1472,7 @@
     <config guid="f03e06bc-a038-4042-b458-93382dcdd44d">
       <active>true</active>
       <description>Isolation Valve Open-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="19">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/iso_valve_dn" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/iso_valve_up" expression="$" />
@@ -1484,7 +1484,7 @@
     <config guid="6d6c7a6a-637e-446c-9337-09683335843e">
       <active>true</active>
       <description>Eng Bleed 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="5">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/bleed_air_1_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/bleed_air_1_pos" expression="1" />
@@ -1496,7 +1496,7 @@
     <config guid="404b4473-a53c-401e-918e-8a611a7069c7">
       <active>true</active>
       <description>Apu Bleed</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="4">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/bleed_air_apu_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/bleed_air_apu_pos" expression="1" />
@@ -1508,7 +1508,7 @@
     <config guid="cb677d36-7d2e-4f96-be5c-662e15a0a00f">
       <active>true</active>
       <description>Eng Bleed 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="1">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/bleed_air_2_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/bleed_air_2_pos" expression="1" />
@@ -1520,7 +1520,7 @@
     <config guid="3b1c19e3-b82d-4cd8-b5d5-0e4fbf3af8d6">
       <active>true</active>
       <description>Flt Alt</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="FLT_ALT" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="FLT_ALT" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/flt_alt_press_dn" expression="$" />
           <onLeftFast type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/flt_alt_press_dn" expression="$" />
@@ -1534,7 +1534,7 @@
     <config guid="94b6575c-3961-4bfd-9a9a-ae48f774f1ee">
       <active>true</active>
       <description>Land Alt</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="LAND_ALT" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="LAND_ALT" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/land_alt_press_dn" expression="$" />
           <onLeftFast type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/land_alt_press_dn" expression="$" />
@@ -1548,7 +1548,7 @@
     <config guid="0bd20b06-f84f-440c-85d1-c68d543f38a4">
       <active>true</active>
       <description>VALVE CLOSE</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="InputShifter 1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="InputShifter 1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="6">
           <onPress type="MSFS2020CustomInputAction" command="22201 (&gt;K:ROTOR_BRAKE)" presetId="9904cca9-11da-4553-8548-7df1b3a0b491" />
         </inputShiftRegister>
@@ -1559,7 +1559,7 @@
     <config guid="469168ea-6cef-4511-946e-42673d600422">
       <active>true</active>
       <description>Landing Retractable Left</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="12">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_left_up" expression="0" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_left_dn" expression="1" />
@@ -1571,7 +1571,7 @@
     <config guid="fbd02ef0-c484-4a69-870e-bb4d19174746">
       <active>true</active>
       <description>Landing Retractable Right</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="13">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_right_up" expression="0" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_right_dn" expression="1" />
@@ -1583,7 +1583,7 @@
     <config guid="969b604d-09e2-4106-b77c-e3db44df28fb">
       <active>true</active>
       <description>Landing Fixed Left</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="12">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_left_up" expression="0" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_left_dn" expression="0" />
@@ -1595,7 +1595,7 @@
     <config guid="1816c140-4e3c-4cd8-b35c-f36ed38e922a">
       <active>true</active>
       <description>Landing Fixed Left Copy</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="12">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switch/land_lights_left_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switch/land_lights_left_pos" expression="1" />
@@ -1607,7 +1607,7 @@
     <config guid="bd6ce636-ef3c-4346-a716-3ed8c7178afa">
       <active>true</active>
       <description>Landing Fixed Right</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="13">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_right_up" expression="0" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/switch/land_lights_ret_right_dn" expression="1" />
@@ -1619,7 +1619,7 @@
     <config guid="b59e67b5-5be0-4271-966c-776027a93e74">
       <active>true</active>
       <description>Landing Fixed Right Copy</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="13">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switch/land_lights_right_pos" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switch/land_lights_right_pos" expression="1" />
@@ -1631,7 +1631,7 @@
     <config guid="acaeeee8-20f7-43d1-908d-bc5f8c1ade22">
       <active>true</active>
       <description>Runaway Turnoff Left</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="14">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/rwy_light_left" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/rwy_light_left" expression="1" />
@@ -1643,7 +1643,7 @@
     <config guid="8f5e5c84-b7cf-492f-956f-8795915b4361">
       <active>true</active>
       <description>Runaway Turnoff Right</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="15">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/rwy_light_right" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/rwy_light_right" expression="1" />
@@ -1655,7 +1655,7 @@
     <config guid="dfa9d724-0016-4bb2-ac46-495e9f424379">
       <active>true</active>
       <description>Taxi</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="8">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/taxi_light_brightness_off" expression="" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/taxi_light_brightness_on" expression="1" />
@@ -1667,7 +1667,7 @@
     <config guid="61140738-f127-4f33-925d-5c163ca4f819">
       <active>true</active>
       <description>Apu Start-On</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="10">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switches/apu_start" expression="2" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switches/apu_start" expression="1" />
@@ -1679,7 +1679,7 @@
     <config guid="855a770a-0e20-4c10-ac1a-c0198b4024df">
       <active>true</active>
       <description>Apu Off-On</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="9">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switches/apu_start" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/switches/apu_start" expression="1" />
@@ -1695,7 +1695,7 @@
     <config guid="5f27265e-84a9-4865-b522-0aa8b53182a5">
       <active>true</active>
       <description>E1 - 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="11">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_left" expression="$" />
         </inputShiftRegister>
@@ -1708,7 +1708,7 @@
     <config guid="18e52bbe-db0f-434a-8341-636c3e17ce27">
       <active>true</active>
       <description>E1 - 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="20">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_right" expression="$" />
         </inputShiftRegister>
@@ -1721,7 +1721,7 @@
     <config guid="79bad4c3-e1be-4547-b8dd-967d5c459ab7">
       <active>true</active>
       <description>E1 - 3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="20">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_left" expression="$" />
         </inputShiftRegister>
@@ -1734,7 +1734,7 @@
     <config guid="f26a5de1-250a-49c6-bf42-006bcda5745a">
       <active>true</active>
       <description>E1 - 4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="21">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_right" expression="$" />
         </inputShiftRegister>
@@ -1747,7 +1747,7 @@
     <config guid="54dda828-4351-4063-bea5-5d8e2b26317c">
       <active>true</active>
       <description>E1 - 5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="21">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_right" expression="$" />
         </inputShiftRegister>
@@ -1760,7 +1760,7 @@
     <config guid="dbb5c801-b2f8-49c1-b626-43d3372cf1d9">
       <active>true</active>
       <description>E1 - 6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="22">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_right" expression="$" />
         </inputShiftRegister>
@@ -1773,7 +1773,7 @@
     <config guid="a9264a0a-3e53-41de-8987-36ce9d177772">
       <active>true</active>
       <description>E1 - 7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="22">
           <onPress type="XplaneInputAction" inputType="DataRef" path="" expression="" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng1_start_left" expression="$" />
@@ -1787,7 +1787,7 @@
     <config guid="6aa14672-46d8-48cf-b1ff-da8b5fedcef1">
       <active>true</active>
       <description>E2 - 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="0">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_left" expression="$" />
         </inputShiftRegister>
@@ -1800,7 +1800,7 @@
     <config guid="6a5323ed-12fb-4fae-866d-1bd185af2b8a">
       <active>true</active>
       <description>E2 - 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="7">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_right" expression="$" />
         </inputShiftRegister>
@@ -1813,7 +1813,7 @@
     <config guid="04e0df6e-750f-462b-a1b1-245aa7d46609">
       <active>true</active>
       <description>E2 - 3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="7">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_left" expression="$" />
         </inputShiftRegister>
@@ -1826,7 +1826,7 @@
     <config guid="ac5a5481-8029-470b-a66a-d221901c534e">
       <active>true</active>
       <description>E2 - 4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="6">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_right" expression="$" />
         </inputShiftRegister>
@@ -1839,7 +1839,7 @@
     <config guid="c1ba4cd2-1fc2-4fad-9a20-ef77366b096e">
       <active>true</active>
       <description>E2 - 5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="6">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_right" expression="$" />
         </inputShiftRegister>
@@ -1852,7 +1852,7 @@
     <config guid="39006d4b-a21c-461f-b63a-00563cf8d0e6">
       <active>true</active>
       <description>E2 - 6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="5">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_right" expression="$" />
         </inputShiftRegister>
@@ -1865,7 +1865,7 @@
     <config guid="f6f4cb55-4cf7-4084-b3fd-f914dfa108a3">
       <active>true</active>
       <description>E2 - 7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="5">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/engine/starter2_pos" expression="3" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/knob/eng2_start_left" expression="$" />
@@ -1879,7 +1879,7 @@
     <config guid="e3caaed7-1e72-4d22-b50a-ad9db1ac65fb">
       <active>true</active>
       <description>Engine Start IGN L-Both</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="4">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/eng_start_source" expression="-1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/eng_start_source" expression="0" />
@@ -1891,7 +1891,7 @@
     <config guid="fc18eb3a-df17-46e5-a4d3-d9cc105bf54a">
       <active>true</active>
       <description>Engine Start IGN R-Both</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="23">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/eng_start_source" expression="1" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/eng_start_source" expression="0" />
@@ -1903,10 +1903,10 @@
     <config guid="6827b01c-d12c-4499-963d-e130a590de50">
       <active>true</active>
       <description>Logo</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <inputShiftRegister ExtPin="2">
-          <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/logo_light" expression="1" />
-          <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/logo_light" expression="0" />
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputShiftRegister ExtPin="1">
+          <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/logo_light" expression="0" />
+          <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/logo_light" expression="1" />
         </inputShiftRegister>
         <preconditions />
         <configrefs />
@@ -1915,7 +1915,7 @@
     <config guid="b9a2673f-8af4-4a3e-ac96-a5becc444cec">
       <active>true</active>
       <description>Strobe Off-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_3" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="3">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/position_light_up" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/position_light_down" expression="$" />
@@ -1927,7 +1927,7 @@
     <config guid="948f1a31-a9af-45dc-a5b4-0ba8a86ed16b">
       <active>true</active>
       <description>Strobe On-Auto</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="Pos-&gt;Steady" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="Pos-&gt;Steady" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/position_light_down" expression="$" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/position_light_up" expression="$" />
@@ -1939,7 +1939,7 @@
     <config guid="5e082bd3-5864-480b-ba90-39c2ea88eeef">
       <active>true</active>
       <description>Anti Collison</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="6">
           <onPress type="XplaneInputAction" inputType="DataRef" path="sim/cockpit2/switches/beacon_on" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="sim/cockpit2/switches/beacon_on" expression="1" />
@@ -1951,7 +1951,7 @@
     <config guid="10652c27-05c5-4447-8167-5d5dd2ce5f4b">
       <active>true</active>
       <description>Wing</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="7">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/wing_light" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/wing_light" expression="1" />
@@ -1963,7 +1963,7 @@
     <config guid="26af810e-fb69-454b-af7f-82e408e86557">
       <active>true</active>
       <description>Wheel Well</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_2" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="0">
           <onPress type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/wheel_light" expression="0" />
           <onRelease type="XplaneInputAction" inputType="DataRef" path="laminar/B738/toggle_switch/wheel_light" expression="1" />
@@ -1975,7 +1975,7 @@
     <config guid="9a0676cb-4bea-46a0-b571-17032805efee">
       <active>false</active>
       <description>- - - Irs Functions - - -</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="14">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_left" expression="" />
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_right" expression="" />
@@ -1990,7 +1990,7 @@
     <config guid="f0f1973b-d7a2-4350-ba3a-5607da1609ec">
       <active>true</active>
       <description>R-1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="14">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_left" expression="" />
         </inputShiftRegister>
@@ -2003,7 +2003,7 @@
     <config guid="c587f7db-8841-4ecc-8b3a-e03708b422f8">
       <active>true</active>
       <description>R-2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="13">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_right" expression="" />
         </inputShiftRegister>
@@ -2014,7 +2014,7 @@
     <config guid="883a2df6-cc9a-448c-948f-c4e08077b76a">
       <active>true</active>
       <description>R-3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="13">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_left" expression="" />
         </inputShiftRegister>
@@ -2027,7 +2027,7 @@
     <config guid="60f993ca-431d-4f6d-86ed-a852110ddd6b">
       <active>true</active>
       <description>R-4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="12">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_right" expression="" />
         </inputShiftRegister>
@@ -2040,7 +2040,7 @@
     <config guid="4dac24e8-8408-4129-a78d-6d99a49b49ea">
       <active>true</active>
       <description>R-5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="12">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_left" expression="" />
         </inputShiftRegister>
@@ -2053,7 +2053,7 @@
     <config guid="3d7ce896-9f79-416f-a7b5-5df66e01680f">
       <active>true</active>
       <description>R-6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="11">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_right" expression="" />
         </inputShiftRegister>
@@ -2066,7 +2066,7 @@
     <config guid="7d58f3ce-88ed-442e-b78d-2609b1906c8b">
       <active>true</active>
       <description>R-7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="11">
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_R_left" expression="" />
         </inputShiftRegister>
@@ -2079,7 +2079,7 @@
     <config guid="361fa717-1181-4928-b49c-94a2cc112a03">
       <active>true</active>
       <description>L-1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="24">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_left" expression="" />
         </inputShiftRegister>
@@ -2092,7 +2092,7 @@
     <config guid="7620ebc2-a05b-431f-a6cf-d91b3578c657">
       <active>true</active>
       <description>L-2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="25">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_right" expression="" />
         </inputShiftRegister>
@@ -2103,7 +2103,7 @@
     <config guid="9374ad26-dc61-4708-848b-9b0ad8e768fc">
       <active>true</active>
       <description>L-3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="25">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_left" expression="" />
         </inputShiftRegister>
@@ -2116,7 +2116,7 @@
     <config guid="9ef229d7-24be-45cb-a80e-ded9044f2596">
       <active>true</active>
       <description>L-4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="26">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_right" expression="" />
         </inputShiftRegister>
@@ -2129,7 +2129,7 @@
     <config guid="412b62fa-837a-4143-afa1-3930a33ebb47">
       <active>true</active>
       <description>L-5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="26">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_left" expression="" />
         </inputShiftRegister>
@@ -2142,7 +2142,7 @@
     <config guid="c8d79352-87d0-4e45-95de-b7e83ac5e2fe">
       <active>true</active>
       <description>L-6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="27">
           <onPress type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_right" expression="" />
         </inputShiftRegister>
@@ -2155,7 +2155,7 @@
     <config guid="a79eecd7-f3fa-40f0-9568-89a91778060d">
       <active>true</active>
       <description>L-7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-D8F-39D" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_B737_C_OVH/ SN-830-A75" name="INPUT_SR_1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="27">
           <onRelease type="XplaneInputAction" inputType="Command" path="laminar/B738/toggle_switch/irs_L_left" expression="" />
         </inputShiftRegister>
