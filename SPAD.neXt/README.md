@@ -32,3 +32,5 @@ How to install firmware -> https://github.com/coreflighttech/Uploader
 - r03 EGT fine tuning (2026/04/03)
 - r04 Check Vcc power at start (2026/04/03)
 - r05 Internal deadlock reset feature (2026/04/04)
+- r06 Auto previous display recover after internal display usage (2026/04/04)
+
