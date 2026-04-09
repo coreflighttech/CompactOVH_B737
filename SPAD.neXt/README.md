@@ -1,6 +1,8 @@
 CORE FLIGHT TECHONOLOGIES COMPACT 737 OVERHEAD PANEL firmware for SPAD.neXt SERIAL V2
 
-# r05 Public Release (2026/04/04)
+# r06 Public Release (2026/04/04)
+
+<i>CFT_737_OVH_COMPACT_SPAD_1L2P_R06_115200.ino.exe</i>
 
 Serial COM port has to be set to 115200 bauds in SPAD serial device settings (default bitrate)
 
@@ -28,4 +30,5 @@ How to install firmware -> https://github.com/coreflighttech/Uploader
 - r01 Initial release (2026/04/02)
 - r02 Adding EGT tools (2026/04/02)
 - r03 EGT fine tuning (2026/04/03)
-- r04 Check Vcc power at start and Internal deadlock reset feature (2026/04/03)
+- r04 Check Vcc power at start (2026/04/03)
+- r05 Internal deadlock reset feature (2026/04/04)
