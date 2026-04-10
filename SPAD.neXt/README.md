@@ -24,6 +24,7 @@ To manage brightness from SPAD, use these variables.
 SPAD test snippet for PMDG 737 #16524
 
 How to install firmware -> https://github.com/coreflighttech/Uploader
+(Select B737 MCP in Xloader "Device" pull down list as both devices are driven by the same Arduino type.)
 
 # Previous firmware
 
