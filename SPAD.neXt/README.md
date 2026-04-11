@@ -8,14 +8,14 @@ CORE FLIGHT TECHONOLOGIES COMPACT 737 OVERHEAD PANEL firmware for SPAD.neXt SERI
 
 [CFT_737_OVH_COMPACT_SPAD_1L2P_D_R07_115200.ino.exe](https://github.com/coreflighttech/CompactOVH_B737/blob/main/SPAD.neXt/CFT_737_OVH_COMPACT_SPAD_1L2P_D_R07_115200.ino.hex)
 
-Use this firmware if asked by CFT support request.\
-It has no auto calibration and Vcc check at start.\
+Use this firmware if asked by CFT support request.  
+It has no auto calibration and Vcc check at start.
 
 # How to install the firmware
 
 -> https://github.com/coreflighttech/Uploader  
 - Select B737 MCP in Xloader "Device" pull down list as both devices are driven by the same Arduino type.)
-- Be sure to plug the external power supply of the overhead.\
+- Be sure to plug the external power supply of the overhead.
 - Use powered USB hub or free mothernoard USB port.
   
 # How to use
