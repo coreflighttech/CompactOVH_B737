@@ -33,14 +33,14 @@ Internal devices features
 - Set a user °C offset by pressing "FLT ALT" and turning "LAND ALT" encoders
 - Use EGT_OFFSET variable to set °C offset within SPAD -1000 to 1000 (DEVICE:1L2P/CFT737OVHCOMPACT/EGT_OFFSET)
 
-To manage brightness from SPAD, use these variables.
+To manage brightness from SPAD, use these variables:
  - DISPLAY_BRI : Displays brightness from 0 to 15 (DEVICE:1L2P/CFT737OVHCOMPACT/DISPLAY_BRI)
  - BACKLIGHT_BRI : Backlight brightness from 0 to 255 (DEVICE:1L2P/CFT737OVHCOMPACT/BACKLIGHT_BRI)
 
 SPAD test snippet for PMDG 737 #16524
 
 
-# Firmware release notes
+# Firmware history
 
 - r01 Initial release (2026/04/02)
 - r02 Adding EGT tools (2026/04/02)
