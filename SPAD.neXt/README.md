@@ -4,7 +4,7 @@ CORE FLIGHT TECHONOLOGIES COMPACT 737 OVERHEAD PANEL firmware for SPAD.neXt SERI
 
 [CFT_737_OVH_COMPACT_SPAD_1L2P_R07_115200.ino.exe](https://github.com/coreflighttech/CompactOVH_B737/blob/main/SPAD.neXt/CFT_737_OVH_COMPACT_SPAD_1L2P_R07_115200.ino.hex)
 
-# d_r07 No auto EGT calibration release (2026/04/11)
+# d_r07 No EGT auto calibration release (2026/04/11)
 
 [CFT_737_OVH_COMPACT_SPAD_1L2P_D_R07_115200.ino.exe](https://github.com/coreflighttech/CompactOVH_B737/blob/main/SPAD.neXt/CFT_737_OVH_COMPACT_SPAD_1L2P_D_R07_115200.ino.hex)
 
