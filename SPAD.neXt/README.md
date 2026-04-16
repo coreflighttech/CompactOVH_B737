@@ -49,6 +49,6 @@ SPAD test snippet for PMDG 737 #16524
 - r05 Internal deadlock reset feature (2026/04/04)
 - r06 Auto previous display recover after internal display usage (2026/04/04)
 - d_r06	No Arduino Vcc warning, no auto calibration at start, manual calibration extended range (-1000 to 1000 °C) (2026/04/10
-- r07		Check stepper zero pin, manual calibration extended range (-1000 to 1000 °C) (2026/04/11)
+- r07 Check stepper zero pin, manual calibration extended range (-1000 to 1000 °C) (2026/04/11)
 - d_r07	Same as r07 but no auto calibration at start and no Arduino Vcc warning, use only if needed (2026/04/11)
-
+- r08 EGT settper timeouts added, manual calibration updated (tests in progress)
